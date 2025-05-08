@@ -1,0 +1,9 @@
+<?php
+include("connection.php");
+//var_dump($_SESSION['user']);
+unset($_SESSION['user']);
+?>
+<script>
+    alert('Logout!!');
+window.location.href="user.php";
+</script>
